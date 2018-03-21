@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "author": "Bojan Kogoj",
+    "name": "Darkify",
+    "version": "1.0",
+    "description": "Changes background for StackOverflow.com",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.stackoverflow.com/*"
+            ],
+            "css": [
+                "dark_theme.css"
+            ]
+        }
+    ]
+}

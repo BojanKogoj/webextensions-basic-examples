@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "author": "Bojan Kogoj",
+    "name": "Hello popup",
+    "version": "1.0",
+    "description": "Simple popup",
+    "browser_action": {
+        "browser_style": true,
+        "default_title": "Hello popup",
+        "default_popup": "hello.html",
+        "default_icon": "icon-48.png"
+    }
+}
