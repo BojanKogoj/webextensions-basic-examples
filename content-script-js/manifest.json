@@ -1,16 +1,16 @@
 {
     "manifest_version": 2,
     "author": "Bojan Kogoj",
-    "name": "Open filters",
+    "name": "Toggle filters",
     "version": "1.0",
-    "description": "Open filters on StackOverflow.com/jobs",
+    "description": "Booo I'm a ghost on StackOverflow.com/jobs",
     "content_scripts": [
         {
             "matches": [
                 "*://*.stackoverflow.com/jobs*"
             ],
             "js": [
-                "open_filters.js"
+                "toggle_filters.js"
             ]
         }
     ]
