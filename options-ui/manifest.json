@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "author": "Bojan Kogoj",
+    "name": "Options UI",
+    "version": "1.0",
+    "description": "Options UI example",
+    "options_ui": {
+        "page": "options.html"
+    },
+    "permissions": [
+		"storage"
+    ]
+}
