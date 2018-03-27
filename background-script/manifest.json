@@ -1,0 +1,24 @@
+{
+    "name": "background script",
+    "description": "Rewrites user-agent and uses one from BlackBerry 10",
+    "manifest_version": 2,
+    "version": "1.0",
+    "homepage_url": "https://github.com/BojanKogoj/webextensions-basic-examples",
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "https://httpbin.org/*",
+        "https://facebook.com/*",
+        "https://*.facebook.com/*"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "applications": {
+        "gecko": {
+            "id": "bbfb@adev.si"
+        }
+    }
+}
