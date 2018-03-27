@@ -1,5 +1,6 @@
 # Webextensions basic examples
 
+ - [Background script](background-script/README.md)
  - [Content script CSS](content-script-css/README.md)
  - [Content script JS](content-script-js/README.md)
  - [Options UI](options-ui/README.md)
@@ -8,6 +9,8 @@
 
 
 ## Loading
+
+Applies to all examples, but background script also has [instructions](background-script/README.md) for Firefox on Android
 
 ### Firefox
 
