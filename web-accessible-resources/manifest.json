@@ -1,0 +1,10 @@
+{
+    "manifest_version": 2,
+    "author": "Bojan Kogoj",
+    "name": "Web accessible resources",
+    "version": "1.0",
+    "description": "Image served from a webextension",
+    "web_accessible_resources": [
+        "sugarloaf_rock.jpg"
+    ]
+}

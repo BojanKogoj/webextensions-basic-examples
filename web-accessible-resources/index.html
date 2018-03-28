@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- 
+        This example requires addon to display an image, you can find
+        source at https://github.com/BojanKogoj/webextensions-basic-examples
+     -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Web accessible resource example</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            background-color: #d1d1d1;
+            font-family: Sans-Serif;
+        }
+
+        div {
+            width: 1024px;
+            margin: 30px auto 0;
+        }
+
+        p {
+            color: #a5a5a5;
+            margin-top: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <!-- THE IMPORTANT PART -->
+        <img src="moz-extension://0e69d5c8-1d01-4968-bee0-236f21edd13b/sugarloaf_rock.jpg" alt="Please add extension to see image"
+        />
+        <!-- /THE IMPORTANT PART -->
+
+        <p>Photo of Sugarloaf Rock taken by Bojan Kogoj, 2018</p>
+    </div>
+</body>
+
+</html>
