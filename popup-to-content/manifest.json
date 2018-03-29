@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+    "author": "Bojan Kogoj",
+    "name": "Popup to content",
+    "version": "1.0",
+    "description": "Communicating between popup and content",
+    "browser_action": {
+        "browser_style": true,
+        "default_title": "Oh no popup",
+        "default_popup": "ohno.html",
+        "default_icon": "icon-48.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*/*"
+            ],
+            "js": [
+                "content-script.js"
+            ]
+        }
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    }
+}
